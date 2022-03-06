@@ -1,2 +1,2 @@
 ### Welcome Java Home
-changes has been mode 
+changes has been made 
