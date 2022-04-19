@@ -1,0 +1,10 @@
+--- 
+- name: copying war file 
+  hosts: dev
+  become: true
+  tasks:
+     - name: copying war
+       copy:
+          src: /var/lib/jenkins/workspace/java - job/target/myweb-0.0.6.war
+          dest: /opt/apache-tomcat-9.0.62/webapps
+          
